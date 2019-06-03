@@ -1,6 +1,6 @@
 {
-    "name": "plesk/ext-skeleton",
-    "description": "Plesk extension skeleton",
+    "name": "nexbit/ext-skeleton",
+    "description": "Plesk extension skeleton (Nexbit fork)",
     "type": "project",
     "license": "Apache-2.0",
     "autoload": {
