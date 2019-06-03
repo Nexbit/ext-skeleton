@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a79f8987cf7c9999e3df2fc1dd5830ea",
+    "content-hash": "a3a3ed0622eca03231fab35d395b13d8",
     "packages": [],
     "packages-dev": [
         {
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/plesk/pm-api-stubs.git",
-                "reference": "c7b28a388e041f9ca931474a8307d4cc5b817564"
+                "reference": "4448ae008ca1a3aad6109c1107567a50ba00f2e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/plesk/pm-api-stubs/zipball/c7b28a388e041f9ca931474a8307d4cc5b817564",
-                "reference": "c7b28a388e041f9ca931474a8307d4cc5b817564",
+                "url": "https://api.github.com/repos/plesk/pm-api-stubs/zipball/4448ae008ca1a3aad6109c1107567a50ba00f2e7",
+                "reference": "4448ae008ca1a3aad6109c1107567a50ba00f2e7",
                 "shasum": ""
             },
             "require": {
@@ -38,7 +38,7 @@
                 "Apache-2.0"
             ],
             "description": "Plesk Extensions API PHP files stubs for IDE.",
-            "time": "2019-05-07T09:37:24+00:00"
+            "time": "2019-05-31T09:44:35+00:00"
         },
         {
             "name": "plesk/zf1",
