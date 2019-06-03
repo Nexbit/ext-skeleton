@@ -1,6 +1,6 @@
 {
   "name": "skeleton",
-  "version": "1.0.3-nexbit",
+  "version": "1.0.0",
   "license": "Apache-2.0",
   "dependencies": {
     "@plesk/plesk-ext-sdk": "^0.5",
