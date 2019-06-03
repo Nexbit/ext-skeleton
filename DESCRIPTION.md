@@ -9,11 +9,11 @@ Make sure your development environment has the following prerequisites installed
 * PHP 7.1+
 * [Composer](https://getcomposer.org)
 * [Node.js](https://nodejs.org)
-* [Yarn](https://yarnpkg.com)
+* NPM
 
 Create a new project by running `composer create-project plesk/ext-skeleton my-extension`.
 
-Compile assets with `yarn build`.
+Compile assets with `npm build`.
 
 At this point the extension is ready to be used.
 

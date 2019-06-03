@@ -1,6 +1,8 @@
-# Plesk extension skeleton
+# Plesk extension skeleton (NPM flavour)
 
 Plesk extension skeleton is a quick-start for your new Plesk extension using UI library.
+
+**NOTE**: This fork deviates from the official one by replacing `yarn` with `npm`. Nothing personal, it's just what I use everyday...
 
 ## Getting Started
 
@@ -9,11 +11,11 @@ Make sure your development environment has the following prerequisites installed
 * PHP 7.1+
 * [Composer](https://getcomposer.org)
 * [Node.js](https://nodejs.org)
-* [Yarn](https://yarnpkg.com)
+* NPM
 
 Create a new project by running `composer create-project plesk/ext-skeleton my-extension`.
 
-Compile assets with `yarn build`.
+Compile assets with `npm build`.
 
 At this point the extension is ready to be used.
 
