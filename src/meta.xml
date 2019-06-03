@@ -6,7 +6,7 @@
     <category>example</category>
     <version>1.0.0</version>
     <release>1</release>
-    <vendor>Plesk</vendor>
-    <url>https://www.plesk.com</url>
+    <vendor>Nexbit</vendor>
+    <url>https://nexbit.it</url>
     <plesk_min_version>17.8.11</plesk_min_version>
 </module>
