@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- reference: https://docs.plesk.com/en-US/onyx/extensions-guide/plesk-extensions-basics/extension-structure.71076/#meta-xml -->
 <module>
+    <!-- Use your project name (but without the 'ext-'' prefix) -->
     <id>skeleton</id>
+    <!-- The user facing name, in English (the localized strings are at the end of the file) -->
     <name>Skeleton</name>
+    <!-- A longer description, in English -->
     <description>Plesk extension skeleton</description>
-    <category>example</category>
+    <!-- One or more category tags (see the article at the top of this file for a complete list of available categories. DON'T invent them, they are fixed!) -->
+    <category>appearance</category>
+    <category>auth</category>
+    <!-- The version tag is the public version, the release is for internal use (you should increment the release number for every single build) -->
     <version>1.0.0</version>
     <release>1</release>
+    <!-- The vendor name (you) -->
     <vendor>Nexbit</vendor>
+    <!-- This should be the URL of your company's site, but it can be a domain specifically for this extension (product). Please note that clicking on the vendor name will lead to this URL. -->
     <url>https://nexbit.it</url>
+    <!-- (optional) This is necessary only if you plan to sell your extension outside of the Plesk marketplace (a custom e-commerce site) -->
+    <buy_url>http://example.com/</buy_url>
+    <!-- (optional) This is MANDATORY for paid extensions, and should point to a ticketing/kb system for supporting your extension -->
+    <support_url>http://example.com/support</support_url>
+    <!-- (optional) This can point to the help pages (docs) for your extension -->
+    <help_url>http://example.com/help</help_url>
+    <!-- This is the minimum Plesk version with which your extension is able to function. You must use a compatible SDK based on this version. -->
     <plesk_min_version>17.8.11</plesk_min_version>
+    <!-- (optional - not recommended) This is the maximum Plesk version with which your extension is able to function. Only set this if you absolutely need to (see the docs). -->
+    <!--<plesk_max_version>18.0</plesk_max_version>-->
+    <!-- (optional) This can take only 2 possible values: 'unix' or 'win'. Only set this if your extension can work with one OS and not the other. -->
+    <!--<os>unix</os>-->
 </module>
