@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- reference: https://docs.plesk.com/en-US/onyx/extensions-guide/plesk-extensions-basics/extension-structure.71076/#meta-xml -->
+<!-- tags reference: https://docs.plesk.com/en-US/onyx/extensions-guide/plesk-extensions-basics/extension-structure.71076/#meta-xml -->
 <module>
     <!-- Use your project name (but without the 'ext-'' prefix) -->
     <id>skeleton</id>
@@ -29,4 +29,8 @@
     <!--<plesk_max_version>18.0</plesk_max_version>-->
     <!-- (optional) This can take only 2 possible values: 'unix' or 'win'. Only set this if your extension can work with one OS and not the other. -->
     <!--<os>unix</os>-->
+
+    <!--Localizations below - if you plan to localise your extension, translate at least the name and description tags in the languages you will support. -->
+    <name xml:lang="it-IT">Scheletro</name>
+    <description xml:lang="it-IT">Scheletro di estensione Plesk</description>
 </module>
