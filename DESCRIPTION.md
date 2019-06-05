@@ -1,26 +1,10 @@
-# Plesk extension skeleton (NPM flavour)
+To help you with *something* we decided to build this awesome extension. Here is what you can do with it:
 
-Plesk extension skeleton is a quick-start for your new Plesk extension using UI library.
+ - Have *something* done for you automatically, instead of boring manual steps.
+ - Makes you happy.
+ - Don't make you sad (**hopefully**).
+ - A load of other marvellous things.
 
-**NOTE**: This fork deviates from the official one by replacing `yarn` with `npm`. Nothing personal, it's just what I use everyday...
+[Learn More](https://example.com/my-extension)
 
-## Getting Started
-
-Make sure your development environment has the following prerequisites installed:
-
-* PHP 7.1+
-* [Composer](https://getcomposer.org)
-* [Node.js](https://nodejs.org)
-* NPM
-
-Create a new project by running `composer create-project --repository '{ "type": "vcs", "url": "https://github.com/Nexbit/ext-skeleton" }' nexbit/ext-skeleton ext-helloworld`.
-
-Compile assets with `npm run build`.
-
-At this point the extension is ready to be used.
-
-To deploy it, create a .zip archive with contents of the `/src` directory (except `/frontend` subdirectory). You can then upload this archive via Extension Catalog in Plesk UI, or use the [command line utility](https://docs.plesk.com/en-US/onyx/extensions-guide/extensions-management-utility.73617/).
-
-## License
-
-This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
+**This extension is **FREE** with Plesk. You can also get unicorns support for only $99999.00 a month.**
