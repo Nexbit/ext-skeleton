@@ -13,9 +13,9 @@ Make sure your development environment has the following prerequisites installed
 * [Node.js](https://nodejs.org)
 * NPM
 
-Create a new project by running `composer create-project plesk/ext-skeleton my-extension`.
+Create a new project by running `composer create-project --repository '{ "type": "vcs", "url": "https://github.com/Nexbit/ext-skeleton" }' nexbit/ext-skeleton ext-helloworld`.
 
-Compile assets with `npm build`.
+Compile assets with `npm run build`.
 
 At this point the extension is ready to be used.
 

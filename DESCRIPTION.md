@@ -1,6 +1,8 @@
-# Plesk extension skeleton
+# Plesk extension skeleton (NPM flavour)
 
 Plesk extension skeleton is a quick-start for your new Plesk extension using UI library.
+
+**NOTE**: This fork deviates from the official one by replacing `yarn` with `npm`. Nothing personal, it's just what I use everyday...
 
 ## Getting Started
 
@@ -11,9 +13,9 @@ Make sure your development environment has the following prerequisites installed
 * [Node.js](https://nodejs.org)
 * NPM
 
-Create a new project by running `composer create-project plesk/ext-skeleton my-extension`.
+Create a new project by running `composer create-project --repository '{ "type": "vcs", "url": "https://github.com/Nexbit/ext-skeleton" }' nexbit/ext-skeleton ext-helloworld`.
 
-Compile assets with `npm build`.
+Compile assets with `npm run build`.
 
 At this point the extension is ready to be used.
 
