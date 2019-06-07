@@ -1,6 +1,6 @@
 {
     "name": "nexbit/ext-skeleton",
-    "description": "Plesk extension skeleton (Nexbit fork)",
+    "description": "Plesk extension skeleton (Paolo Furini's fork)",
     "type": "project",
     "license": "Apache-2.0",
     "autoload": {
@@ -14,7 +14,7 @@
         }
     },
     "require": {
-        "php": "^7.0"
+        "php": "^7.1"
     },
     "require-dev": {
         "plesk/pm-api-stubs": "^18.0"

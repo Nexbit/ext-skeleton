@@ -2,3 +2,6 @@
 /src/htdocs/dist
 /src/htdocs/index.php
 /src/plib/vendor
+
+# REMOVE THE FOLLOWING LINE IF YOU WANT YOUR DIST BUNDLES (ZIP FILES) IN THE REPO
+/dist

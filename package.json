@@ -2,7 +2,7 @@
   "name": "skeleton",
   "version": "1.0.0",
   "license": "Apache-2.0",
-  "author": "Nexbit",
+  "author": "Paolo Furini",
   "repository": {
     "type": "git",
     "url": "https://github.com/Nexbit/ext-skeleton"
@@ -12,14 +12,34 @@
     "extension"
   ],
   "dependencies": {
-    "@plesk/plesk-ext-sdk": "^0.5",
-    "axios": "^0.19",
-    "acorn": "^6.0.0"
+    "@plesk/plesk-ext-sdk": "^0.5.5",
+    "acorn": "^6.0.0",
+    "axios": "^0.19"
   },
   "scripts": {
-    "prepare": "npm run build",
-    "dev": "plesk-ext-sdk dev",
     "build": "plesk-ext-sdk build",
-    "lint": "eslint src/frontend"
+    "dev": "plesk-ext-sdk dev",
+    "test": "plesk-ext-sdk test",
+    "lint": "eslint src/frontend",
+    "zip": "npm run ext-cli zip",
+    "predeploy": "npm run build && npm run ext-cli zip",
+    "deploy": "npm run ext-cli deploy",
+    "ext-cli": "./cli/bin/run"
+  },
+  "jest": {
+    "rootDir": "src",
+    "moduleNameMapper": {
+      "\\.(jpg|png)$": "<rootDir>/test/fileMock.js"
+    }
+  },
+  "devDependencies": {
+    "archiver": "^3.0",
+    "fast-xml-parser": "^3.0",
+    "fs-extra": "^8.0",
+    "jest": "^24.0",
+    "node-ssh-exec": "^0.1",
+    "prompts": "^2.0",
+    "scp2": "^0.5",
+    "yargs": "^13.0"
   }
 }
