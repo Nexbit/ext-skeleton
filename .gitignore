@@ -5,3 +5,25 @@
 
 # REMOVE THE FOLLOWING LINE IF YOU WANT YOUR DIST BUNDLES (ZIP FILES) IN THE REPO
 /dist
+
+*.iml
+.idea/workspace.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/dataSources/
+dataSources.local.xml
+
+*.log
+tmp
+
+*~
+.DS_Store
+
+## Windows #############
+
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+## Windows - END ########
